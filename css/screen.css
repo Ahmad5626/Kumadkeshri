@@ -1172,7 +1172,12 @@ header.header-v2 .logo {
   left: 30px;
   width: 6%;
 }
-
+@media (max-width: 768px) {
+  header.header-v2 .logo {
+    left: 30px;
+    width: 20%;
+}
+}
 header.header-v2 .contacts li {
   margin: 0;
   padding: 9px 28px 10px;
