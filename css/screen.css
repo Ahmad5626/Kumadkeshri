@@ -6705,3 +6705,9 @@ input.form-send {
 .portfolio_1column .portfolio-box {
   width: 100%;
 }
+
+@media(max-width:768px){
+  header.header-v2 .logo {
+    left: 30px;
+    width: 20%;
+}}
